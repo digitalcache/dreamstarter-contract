@@ -1,18 +1,20 @@
 {
   "name": "dreamstarter-contracts",
   "scripts": {
-    "build": "npx thirdweb@latest detect",
+    "build": "npx thirdweb@5.83.0 detect",
     "deploy": "npx thirdweb@latest deploy",
     "publish": "npx thirdweb@latest publish"
   },
   "devDependencies": {
     "@matterlabs/hardhat-zksync-solc": "^0.3.17",
+    "cross-spawn": "^7.0.6",
     "hardhat": "^2.13.0"
   },
   "dependencies": {
     "@thirdweb-dev/contracts": "^3.8.0",
-    "zksync-web3": "^0.14.3",
     "@uniswap/v3-core": "^1.0.1",
-    "@uniswap/v3-periphery": "^1.4.4"
+    "@uniswap/v3-periphery": "^1.4.4",
+    "thirdweb": "^5.80.0",
+    "zksync-web3": "^0.14.3"
   }
 }
